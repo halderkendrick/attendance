@@ -45,7 +45,7 @@ const handleDelete= (id)=>{
       <ul>
        {todoList.map((item)=>(
          <li key={item.id}><p>{item.todoname}</p>
-          <button onClick={()=>handleDelete(item.id)} className='delete'>Absent</button>
+          <button onClick={()=>handleDelete(item.id)} className='delete'>Remove</button>
           </li>
        ))}
       </ul>
