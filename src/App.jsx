@@ -40,7 +40,7 @@ const handleDelete= (id)=>{
     <div>
       <h1>Attendance</h1>
       <input value={inputData} type="text" placeholder='Present Student' onChange={(e)=>setInputaData(e.target.value)}/>
-      <button onClick={handelSubmit}>submit</button>
+      <button onClick={handelSubmit}>Submit</button>
 
       <ul>
        {todoList.map((item)=>(
